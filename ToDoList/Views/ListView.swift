@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ListView: View {
     
+    
+    ///can be used in any subview without passing throught or having to subcall
     @EnvironmentObject var listViewModel: ListViewModel
   
     var body: some View {
